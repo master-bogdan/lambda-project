@@ -1,0 +1,75 @@
+.header {
+    max-width: 1600px;
+    max-height: 750px;
+    background: url(../img/bg/main.jpg) center (center/cover) no-repeat;
+    padding: 5px 142px 179px 142px;
+    margin: 0 auto;
+    &__logo {
+        width: 154px;
+        height: 92px;
+    }
+    header {
+        display: flex;
+        justify-content: space-between;
+        nav {
+            align-items: center;
+            display: flex;
+            .container {
+                display: flex;
+                .nav {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    list-style: none;
+                    #close {
+                        display: none;
+                    }
+                    &__link {
+                        font-size: 21px;
+                        font-weight: 400;
+                        color: #ffffff;
+                    }
+                    &__item {
+                        padding-right: 28px;
+                        .nav__social{
+                            display: flex;
+                            &_item {
+                                padding-right: 20px;
+                                font-size: 21px;
+                                font-weight: 400;
+                                color: #dab33e;
+                                :hover {
+                                    color: #503d05;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    &__title {
+        margin-top: 68px;
+        h1 {
+            opacity: 0.92;
+            font-family: $yeseva;
+            font-size: 6vw;
+            font-weight: 600;
+            color: #ffffff;
+            text-align: center;
+        }
+    }
+    &__divider {
+        width: 232px;
+        height: 43px;
+        margin: 0 auto;
+        margin-top: 15px;
+    }
+    &__buttons {
+        text-align: center;
+        margin-top: 34px;
+    }
+    .hamburger {
+        display: none;
+    }
+}

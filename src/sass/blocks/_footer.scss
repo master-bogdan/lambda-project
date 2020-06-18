@@ -1,0 +1,63 @@
+.footer {
+    max-width: 1600px;
+    min-height: 320px;
+    background-color: #191919;
+    margin: 0 auto;
+    padding: 50px 10% 62px 10%;
+    .container {
+        justify-content: space-evenly;
+    }
+    &__block {
+        display: block;
+        max-width: 343px;
+        &_title {
+            text-align: center;
+            font-family: $yeseva;
+            font-size: 21px;
+            font-weight: 400;
+            color: #fefefe;
+        }
+        &_divider {
+            display: block;
+            margin: 0 auto;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+        &_descr {
+            text-align: center;
+            font-family: 'OpenSans';
+            font-size: 16px;
+            line-height: 24px;
+            font-weight: 400;
+            color: #ffffff;
+            span {
+                font-weight: 700;
+            }
+        }
+        &_paycards {
+            padding-top: 40px;
+            text-align: center;
+            font-size: 20px;
+            line-height: 24px;
+            font-weight: 400;
+            color: #ffffff;
+        }
+        &_adress {
+            text-align: center;
+            font-family: 'OpenSans';
+            font-size: 16px;
+            font-weight: 700;
+            color: #ffffff;
+        }
+        &_social {
+            padding-top: 25px;
+            text-align: center;
+            font-size: 20px;
+            line-height: 24px;
+            font-weight: 400;
+            a {
+                color: #ffffff;
+            }
+        }
+    }
+}

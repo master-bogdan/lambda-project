@@ -1,0 +1,72 @@
+.menu {
+    max-width: 1600px;
+    min-height: 994px;
+    background: url(../img/bg/menu.png) center (center/cover) no-repeat;
+    margin: 0 auto;
+    padding: 87px 256px 78px 256px;
+    .container {
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: flex-end;
+    }
+    &__card_starters{
+        align-self: flex-start;
+    }
+    &__card {
+        display: block;
+        padding: 0 20px;
+        &_title {
+            font-family: $yeseva;
+            font-size: 36px;
+            line-height: 24px;
+            font-weight: 400;
+            color: #cc9900;
+            text-align: center;
+        }
+        &_divider {
+            display: block;
+            margin: 16px auto;
+        }
+        &_item {
+            display: block;
+            margin-bottom: 28px;
+            &_spec {
+                text-align: center;
+                width: 69px;
+                height: 22px;
+                background-color: rgba(200, 159, 45, 0.8);
+                transform: translateX(-100%);
+                margin-left: 100%;
+                font-family: $lato;
+                font-size: 14px;
+                font-weight: 400;
+                color: #f8fafa;
+            }
+            &_wrapper {
+                padding: 5px 10px;
+                border-left: 1px solid rgba(200, 159, 45, 0.3);
+                border-bottom: 1px solid rgba(200, 159, 45, 0.4);
+                border-right: 1px solid rgba(200, 159, 45, 0.6);
+                border-top: 1px solid rgba(200, 159, 45, 0.2);
+            }
+            &-title {
+                display: flex;
+                justify-content: space-between;
+                font-family: $yeseva;
+                font-size: 21px;
+                line-height: 24px;
+                font-weight: 400;
+                color: #c89f2d;
+            }
+            hr {
+                background-color: rgba(200, 159, 45, 0.2);
+                border: 1px solid rgba(200, 159, 45, 0.2);
+            }
+            &-descr {
+                font-family: $lato;
+                font-size: 16px;
+                color: #4c4c4c;
+            }
+        }
+    }
+}

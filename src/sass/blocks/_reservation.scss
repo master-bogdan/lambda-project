@@ -1,0 +1,46 @@
+.reservation {
+    max-width: 1600px;
+    min-height: 708px;
+    background: url(../img/bg/right_food.png) center (center/cover) no-repeat;
+    margin: 0 auto;
+    padding: 80px 150px 80px 150px;
+    .container{
+        justify-content: space-around;
+    }
+    &__images {
+        display: flex;
+        justify-content: space-between;
+        max-height: 507px;
+        &-img {
+            display: block;
+            margin-right: 20px;
+            img {
+                max-width: 100%;
+            }
+        }
+    }
+    &__card {
+        max-width: 430px;
+        &_title {
+            text-align: center;
+            font-family: $yeseva;
+            font-size: 36px;
+            line-height: 24px;
+            font-weight: 400;
+            color: #cc9900;
+        }
+        &_divider {
+            display: block;
+            margin: 0 auto;
+            margin-top: 15px;
+        }
+        &_text {
+            text-align: center;
+            font-family: $lato;
+            font-size: 16px;
+            line-height: 24px;
+            font-weight: 400;
+            color: #4c4c4c;
+        }
+    }
+}

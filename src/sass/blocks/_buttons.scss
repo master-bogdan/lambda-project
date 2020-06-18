@@ -1,0 +1,36 @@
+.btn {
+    width: 228px;
+    height: 57px;
+    opacity: 0.8;
+    font-family: $lato;
+    font-size: 18px;
+    font-weight: 400;
+    color: #ffffff;
+    border: none;
+    &_black {
+        background-color: rgba(0,0,0,0.7);
+        margin-right: 30px;
+        :hover{
+        border: 1px solid #000000;
+        }
+    }
+    &_white {
+        background-color: rgba(255,255,255,0.27);
+        scroll-behavior: smooth;
+        :hover{
+        border: 1px solid #ffffff;
+        }
+    }
+}
+.reservation_btn {
+    width: 200px;
+    height: 36px;
+    background-color: rgba(200,159,45,0.98);
+    border: 1px solid #c89f2d;
+    font-family: 'OpenSans';
+    font-size: 16px;
+    font-weight: 400;
+    color: #ffffff;
+    margin: 0 auto;
+    margin-top: 35px;
+}

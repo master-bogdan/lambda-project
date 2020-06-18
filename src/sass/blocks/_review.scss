@@ -1,0 +1,43 @@
+.review {
+    max-width: 1600px;
+    max-height: 1080px;
+    background: url(../img/bg/guest_reviews.jpg) center (center/cover) no-repeat;
+    margin: 0 auto;
+    padding: 100px 200px 129px 200px;
+    .container {
+        max-width: 770px;
+        background-color: rgba($color: #000000, $alpha: 0.67);
+    }
+    &__block {
+        display: block;
+        padding: 82px 74px 103px 74px;
+        &_title {
+            font-family: $yeseva;
+            font-size: 36px;
+            line-height: 1.2;
+            font-weight: 400;
+            color: #ffffff;
+            text-align: center;
+        }
+        &_divider {
+            display: block;
+            margin: 0 auto;
+            margin-bottom: 30px;
+        }
+        &_descr {
+            font-family: $gentium;
+            font-size: 25px;
+            line-height: 45px;
+            font-weight: 400;
+            color: #dde0df;
+            text-align: center;
+        }
+        &_subdescr {
+            font-family: $lato;
+            font-size: 18px;
+            color: #ffffff;
+            margin-top: 20px;
+            text-align: center;
+        }
+    }
+}

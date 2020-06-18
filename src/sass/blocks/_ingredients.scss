@@ -1,0 +1,70 @@
+.ingredients {
+    max-width: 1600px;
+    height: 758px;
+    margin: 0 auto;
+    padding: 100px 215px 100px 0;
+    background: url(../img/bg/fine.jpg) center (center/cover) no-repeat;
+    .container{
+        justify-content: flex-end;
+    }
+    &__block {
+        visibility: hidden;
+        padding: 83px 37px 32px 50px;
+        min-height: 570px;
+        max-width: 557px;
+        background-color: rgba($color: #000000, $alpha: 0.67);
+        border: 0.1px solid #fbf7c0;
+        left: 100%;
+        &_animated {
+            visibility: visible;
+            transition: visibility 0.5s linear;
+            animation: ingredients 1s;
+        }
+        &_title {
+            font-family: $yeseva;
+            font-size: 36px;
+            font-weight: 400;
+            color: #ffffff;
+            text-align: center;
+        }
+        &_divider {
+            display: block;
+            margin: 16px auto 30px auto;
+        }
+        &_text {
+            position: relative;
+            font-family: $lato;
+            font-size: 16px;
+            font-weight: 400;
+            color: #ffffff;
+            text-align: center;
+            max-width: 409px;
+            z-index: 4;
+        }
+        &_images {
+            position: relative;
+            display: flex;
+            .image_item_1 {
+                display: block;
+                position: absolute;
+                z-index: 1;
+                left: -15px;
+                top: 30px;
+            }
+            .image_item_2 {
+                display: block;
+                position: absolute;
+                z-index: 2;
+                left: 27%;
+                top: -20px;
+            }
+            .image_item_3 {
+                display: block;
+                position: absolute;
+                z-index: 3;
+                right: -10px;
+                top: 50px;
+            }
+        }
+    }
+}

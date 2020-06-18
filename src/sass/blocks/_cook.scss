@@ -1,0 +1,50 @@
+.cook {
+    max-width: 1600px;
+    min-height: 710px;
+    background: url(../img/bg/second_section.png) center (center/cover) no-repeat;
+    margin: 0 auto;
+    padding: 55px 240px 30px 294px;
+    .container {
+        display: flex;
+    }
+    &__block {
+        margin-top: 88px;
+    }
+    &__title {
+        font-family: $yeseva;
+        font-size: 36px;
+        line-height: 24px;
+        font-weight: 400;
+        color: #cc9900;
+        text-align: center;    
+    }
+    &__divider {
+        display: block;
+        margin: 0 auto;
+        margin-top: 15px;
+    }
+    &__descr {
+        max-width: 409px;
+        min-height: 111px;
+        text-align: center;
+        margin-top: 32px;
+    }
+    &__img {
+        display: block;
+        margin: 0 auto;
+        margin-top: 45px;
+    }
+    &__dish {
+        margin-left: 32px;
+        &_img {
+            visibility: hidden;
+            max-width: 200%;
+            margin: 0 auto;
+            &_animated {
+                visibility: visible;
+                transition: visibility 1s;
+                animation: dish 1.5s;
+            }
+        }
+    }
+}
