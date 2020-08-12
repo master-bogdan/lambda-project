@@ -2,11 +2,14 @@
 =======================
 https://master-bogdan.github.io/lambda-project/
 
+### Technologies usde
 - :arrow_right_hook: HTML5
 - :arrow_right_hook: CSS3
 - :arrow_right_hook: Native JavaScript
 - :arrow_right_hook: Responsive / Adaptive
 - :arrow_right_hook: CSS3 Animations
+- :arrow_right_hook: Gulp
+- :arrow_right_hook: Photoshop
 
 ---
 
